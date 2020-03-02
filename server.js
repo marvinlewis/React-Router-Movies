@@ -50,6 +50,14 @@ const movies = [
 		metascore: 89,
 		stars: ['Kurt Russell', 'Bill Paxton', 'Sam Elliot'],
 	},
+
+	{
+		id: 6,
+		title: 'Tanisha Harris',
+		director: 'Tinny T',
+		metascore: 20,
+		stars: ['Kurt Russell', 'Bill Paxton', 'Sam Elliot'],
+	},
 ];
 
 app.get('/api/movies', (req, res) => {
